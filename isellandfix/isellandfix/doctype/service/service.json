@@ -1,24 +1,337 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2024-03-22 07:28:48.092741",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_clmh"
+  "asdf_section",
+  "customer",
+  "naming_series",
+  "column_break_rfxl",
+  "status",
+  "device_tab",
+  "phone_section",
+  "phone_column",
+  "screen",
+  "battery",
+  "camera",
+  "simsd_card",
+  "back_cover",
+  "charging_port",
+  "water_damage",
+  "data_transfer",
+  "computer_column",
+  "screen_c",
+  "battery_c",
+  "no_boot",
+  "service",
+  "keyboard",
+  "power_supply",
+  "water_damage_c",
+  "data_transfer_c",
+  "device_details_section",
+  "brand",
+  "model",
+  "column_break_abnj",
+  "password",
+  "section_break_bxqf",
+  "charger",
+  "sd_card",
+  "sim_card",
+  "column_break_bgzn",
+  "casebag",
+  "battery_2",
+  "description_tab",
+  "description",
+  "acceptance_tab",
+  "el_notice",
+  "column_break_zpwf",
+  "el_acceptance",
+  "section_break_ympc",
+  "signature",
+  "column_break_hvpv",
+  "accept_terms",
+  "date_acceptance"
  ],
  "fields": [
   {
-   "fieldname": "section_break_clmh",
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "SRV-.YYYY.-"
+  },
+  {
+   "fieldname": "asdf_section",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "device_tab",
+   "fieldtype": "Tab Break",
+   "label": "Device"
+  },
+  {
+   "fieldname": "phone_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "screen",
+   "fieldtype": "Check",
+   "label": "Screen"
+  },
+  {
+   "default": "0",
+   "fieldname": "battery",
+   "fieldtype": "Check",
+   "label": "Battery"
+  },
+  {
+   "default": "0",
+   "fieldname": "camera",
+   "fieldtype": "Check",
+   "label": "Camera"
+  },
+  {
+   "default": "0",
+   "fieldname": "simsd_card",
+   "fieldtype": "Check",
+   "label": "Sim/SD Card"
+  },
+  {
+   "fieldname": "phone_column",
+   "fieldtype": "Column Break",
+   "label": "Phone"
+  },
+  {
+   "default": "0",
+   "fieldname": "back_cover",
+   "fieldtype": "Check",
+   "label": "Back Cover"
+  },
+  {
+   "default": "0",
+   "fieldname": "charging_port",
+   "fieldtype": "Check",
+   "label": "Charging Port"
+  },
+  {
+   "default": "0",
+   "fieldname": "water_damage",
+   "fieldtype": "Check",
+   "label": "Water Damage"
+  },
+  {
+   "default": "0",
+   "fieldname": "data_transfer",
+   "fieldtype": "Check",
+   "label": "Data Transfer"
+  },
+  {
+   "fieldname": "computer_column",
+   "fieldtype": "Column Break",
+   "label": "Computer"
+  },
+  {
+   "default": "0",
+   "fieldname": "screen_c",
+   "fieldtype": "Check",
+   "label": "Screen"
+  },
+  {
+   "default": "0",
+   "fieldname": "battery_c",
+   "fieldtype": "Check",
+   "label": "Battery"
+  },
+  {
+   "default": "0",
+   "fieldname": "no_boot",
+   "fieldtype": "Check",
+   "label": "No Boot"
+  },
+  {
+   "default": "0",
+   "fieldname": "service",
+   "fieldtype": "Check",
+   "label": "Service"
+  },
+  {
+   "default": "0",
+   "fieldname": "keyboard",
+   "fieldtype": "Check",
+   "label": "Keyboard"
+  },
+  {
+   "default": "0",
+   "fieldname": "power_supply",
+   "fieldtype": "Check",
+   "label": "Power Supply"
+  },
+  {
+   "default": "0",
+   "fieldname": "water_damage_c",
+   "fieldtype": "Check",
+   "label": "Water Damage"
+  },
+  {
+   "default": "0",
+   "fieldname": "data_transfer_c",
+   "fieldtype": "Check",
+   "label": "Data Transfer"
+  },
+  {
+   "fieldname": "device_details_section",
+   "fieldtype": "Section Break",
+   "label": "Device Details"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "column_break_abnj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password"
+  },
+  {
+   "fieldname": "section_break_bxqf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "charger",
+   "fieldtype": "Check",
+   "label": "Charger"
+  },
+  {
+   "default": "0",
+   "fieldname": "sd_card",
+   "fieldtype": "Check",
+   "label": "SD Card"
+  },
+  {
+   "default": "0",
+   "fieldname": "sim_card",
+   "fieldtype": "Check",
+   "label": "SIM Card"
+  },
+  {
+   "fieldname": "column_break_bgzn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "casebag",
+   "fieldtype": "Check",
+   "label": "Case/Bag"
+  },
+  {
+   "default": "0",
+   "fieldname": "battery_2",
+   "fieldtype": "Check",
+   "label": "Battery"
+  },
+  {
+   "fieldname": "description_tab",
+   "fieldtype": "Tab Break",
+   "label": "Description"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text"
+  },
+  {
+   "fieldname": "acceptance_tab",
+   "fieldtype": "Tab Break",
+   "label": "Acceptance"
+  },
+  {
+   "fieldname": "column_break_zpwf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ympc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_acceptance",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_hvpv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_rfxl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Open\nIn Progress\nOn Hold\nResolved\nClosed\nCancelled",
+   "reqd": 1
+  },
+  {
+   "description": "asdfasdf",
+   "fieldname": "el_acceptance",
+   "fieldtype": "Heading",
+   "label": "English"
+  },
+  {
+   "default": "Yes",
+   "fieldname": "accept_terms",
+   "fieldtype": "Select",
+   "label": "Accept Terms",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "el_notice",
+   "fieldtype": "HTML",
+   "is_virtual": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-22 07:28:48.092741",
+ "modified": "2024-03-22 08:13:29.792214",
  "modified_by": "Administrator",
  "module": "iSellAndFix",
  "name": "Service",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
