@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"4pizer7wCB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">iSell&amp;Fix</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"4pizer7wCB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">iSell&amp;Fix</span>\",\"col\":12}},{\"id\":\"8GvLMDD-J0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service\",\"col\":3}}]",
  "creation": "2024-03-22 07:24:51.196418",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "iSell&Fix",
  "links": [],
- "modified": "2024-03-22 07:25:13.690778",
+ "modified": "2024-03-22 08:50:33.811352",
  "modified_by": "Administrator",
  "module": "iSellAndFix",
  "name": "iSell&Fix",
@@ -24,6 +24,16 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 33.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "Kanban",
+   "kanban_board": "By Status",
+   "label": "Service",
+   "link_to": "Service",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "iSell&Fix"
 }
